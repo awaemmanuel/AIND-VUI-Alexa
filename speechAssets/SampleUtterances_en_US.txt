@@ -2,3 +2,33 @@ GetNewFactIntent a fact
 GetNewFactIntent tell me a fact
 GetNewFactIntent give me a fact
 GetNewFactIntent give me something
+GetNewFactIntent a fact game
+GetNewFactIntent give me a fact game
+GetNewFactIntent give me something
+GetNewFactIntent a fact game suggestion
+GetNewFactIntent a fact game tip
+GetNewFactIntent the best fact game
+GetNewFactIntent a good fact game
+GetNewFactIntent a tip
+GetNewFactIntent the fact game of the year
+GetNewFactIntent tell me the fact game of the year
+GetNewFactIntent a top fact game
+GetNewFactIntent give me a top fact game
+GetNewFactIntent tell me a top fact game
+GetNewFactIntent give me the best fact game
+GetNewFactIntent tell me something
+GetNewYearFactIntent the best fact game of {FACT_YEAR}
+GetNewYearFactIntent a fact game in {FACT_YEAR}
+GetNewYearFactIntent give me the best fact game of {FACT_YEAR}
+GetNewYearFactIntent the best of {FACT_YEAR}
+GetNewYearFactIntent {FACT_YEAR} fact game of the year
+GetNewYearFactIntent give me the {FACT_YEAR} fact game of the year
+GetNewYearFactIntent the top fact game in {FACT_YEAR}
+GetNewYearFactIntent the top fact game of {FACT_YEAR}
+GetNewYearFactIntent give me the top fact game of {FACT_YEAR}
+GetNewYearFactIntent {FACT_YEAR} best fact game
+GetNewYearFactIntent {FACT_YEAR} top fact game
+GetNewYearFactIntent tell me about {FACT_YEAR}
+GetNewYearFactIntent suggest the {FACT_YEAR} best fact game
+GetNewYearFactIntent what fact game was the best in {FACT_YEAR}
+GetNewYearFactIntent tell me the {FACT_YEAR} fact game of the year
