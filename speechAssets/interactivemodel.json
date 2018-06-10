@@ -1,0 +1,73 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "My History Skill",
+            "intents": [
+                {
+                    "name": "GetNewFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "a fact",
+                        "tell me a fact",
+                        "give me a fact",
+                        "give me something",
+                        "a fact game",
+                        "give me a fact game",
+                        "give me something",
+                        "a fact game suggestion",
+                        "a fact game tip",
+                        "the best fact game",
+                        "a good fact game",
+                        "a tip",
+                        "the fact game of the year",
+                        "tell me the fact game of the year",
+                        "a top fact game",
+                        "give me a top fact game",
+                        "tell me a top fact game",
+                        "give me the best fact game",
+                        "tell me something"
+                    ]
+                },
+                {
+                    "name": "GetNewYearFactIntent",
+                    "slots": [
+                        {
+                            "name": "FACT_YEAR",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "the best fact game of {FACT_YEAR}",
+                        "a fact game in {FACT_YEAR}",
+                        "give me the best fact game of {FACT_YEAR}",
+                        "the best of {FACT_YEAR}",
+                        "{FACT_YEAR} fact game of the year",
+                        "give me the {FACT_YEAR} fact game of the year",
+                        "the top fact game in {FACT_YEAR}",
+                        "the top fact game of {FACT_YEAR}",
+                        "give me the top fact game of {FACT_YEAR}",
+                        "{FACT_YEAR} best fact game",
+                        "{FACT_YEAR} top fact game",
+                        "tell me about {FACT_YEAR}",
+                        "suggest the {FACT_YEAR} best fact game",
+                        "what fact game was the best in {FACT_YEAR}",
+                        "tell me the {FACT_YEAR} fact game of the year"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
